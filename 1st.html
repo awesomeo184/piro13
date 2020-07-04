@@ -3,6 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        #header{
+            width: 500px;
+            background-color: #ffd800;
+            border: 1px solid #808080;
+            text-align: center;
+        }
+        #wrap {
+            width: 500px;
+            background-color: #66dbf6;
+            border: 2px solid #808080;
+            text-align: center;
+            overflow: hidden;
+        }
+        #content {
+            width: 350px;
+            border: 1px solid red;
+            float: left;
+        }
+        #side_banner {
+            border: 1px solid red;
+            float: left;
+        }
+        #footer {
+            clear: both;
+            width: 500px;
+            background-color: #ffd800;
+            border: 3px solid #808080;
+            text-align: center;
+        }
+        .menu1, .menu2 {
+            font-weight: bold;
+            font-size: 15px;
+        }
+        input[type=text] {
+            color: orange;
+            font-size: 50px;
+            width: 200px;
+        }
+        ul > li:hover {
+            color: blue;
+        }
+        #structure_selector {
+            width: 300px;
+        }
+        #structure_selector > ul li {
+            list-style: none;
+            border: 1px solid #cccccc;
+            padding: 10px;
+            background-color: #efefef;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        #structure_selector > ul li:nth-child(2n+1) {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+
+<h1>제목1</h1>
+<h2>제목2</h2>
+<h3>제목3</h3>
+<h4>제목4</h4>
+
+<div id="structure_selector">
+    <ul>
+        <li>menu</li>
+        <li>menu</li>
+        <li>menu</li>
+        <li>menu</li>
+        <li>menu</li>
+        <li>menu</li>
+        <li>menu</li>
+        <li>menu</li>
+    </ul>
+</div>
+
+<p>본문을 구성함</p>
+<p>본문을 구성하고 <br /> 줄바꿈을 실행</p>
+<p><b>Seoul</b></p>
+<p><i>Seoul</i></p>
+<p><del>Seoul</del></p>
+<p>Seoul<sup>Seoul</sup></p>
+<p><ins>Seoul</ins></p>
+<p><a href="www.google.com" target="_blank">구글</a> </p>
+<p><a href="www.naver.com" target="_self">Yahoo</a> </p>
+
+<p>Menu List</p>
+    <ul>
+        <li>chicken</li>
+        <li>pasta</li>
+        <li>pizza</li>
+    </ul>
+
+<p>Location</p>
+    <ol>
+        <li>New York</li>
+        <li>California</li>
+        <li>Detroit</li>
+    </ol>
+
+<dl>
+    <dt>Menu List</dt>
+    <dd>chicken</dd>
+    <dd>pasta</dd>
+    <dd>pizza</dd>
+
+    <dt>Location</dt>
+    <dd>New York</dd>
+    <dd>California</dd>
+    <dd>Detroit</dd>
+</dl>
+
+<table border="1">
+<tr>
+    <td rowspan="4">중간고사 성적</td>
+</tr>
+<tr>
+    <td>Korean</td>
+    <td>Math</td>
+    <td>English</td>
+</tr>
+<tr>
+    <td>100</td>
+    <td>90</td>
+    <td>60</td>
+</tr>
+<tr>
+    <td colspan="2">average</td>
+    <td>80</td>
+</tr>
+</table>
+
+<p><img src="image's adress" alt="image description"></p>
+
+<form action="입력한 정보가 저장되는 주소" method="get">
+    Name: <input type="text" name="name"><br />
+    ID: <input type="text" name="ID"><br />
+    Password: <input type="password" name="password"><br />
+    Phone: <input type="text" name="phone1" size="5" />-
+    <input type="text" name="phone2" size="5" />-
+    <input type="text" name="phone3" size="5" /><br />
+    image: <input type="file" name="pic">
+    gender: <input type="radio" name="gender" value="m">M
+            <input type="radio" name="gender" value="f">F<br />
+    language:<input type="checkbox" name="lan" value="kor" checked="checked">Korean
+            <input type="checkbox" name="lan" value="eng">English
+            <<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
 
@@ -77,7 +230,59 @@
     <input type="text" name="phone2" size="5" />-
     <input type="text" name="phone3" size="5" /><br />
     image: <input type="file" name="pic">
+    gender: <input type="radio" name="gender" value="m">M
+            <input type="radio" name="gender" value="f">F<br />
+    language:<input type="checkbox" name="lan" value="kor" checked="checked">Korean
+            <input type="checkbox" name="lan" value="eng">English
+            <input type="checkbox" name="lan" value="jap">Japanese
+            <input type="checkbox" name="lan" value="chi">Chinese<br>
+    Announcement: <textarea rows="5" cols="20">please introduce you</textarea><br>
+    Nation: <select>
+                <option>KOREA</option>
+                <option>U.S.A</option>
+                <option>JAPAN</option>
+                <option>CHINA</option>
+            </select><br>
+    Fav food: <select multiple="multiple">
+            <option>pizza</option>
+            <option>fried chicken</option>
+            <option>pasta</option>
+            <option>hamburger</option>
+    </select><br>
+    <input type="submit">
 
+<!-- div는 블럭태그 span은 라인태그이다-->
+
+</form>
+<div id="header">
+    <h1>HEADER</h1>
+</div>
+
+<div id="wrap">
+    <div id="content">
+        <h1>CONTENT</h1>
+        <ul>
+            <li class="menu1">menu1</li>
+            <li class="menu2">menu2</li>
+            <li class="menu3">menu3</li>
+            <li class="menu4">menu4</li>
+        </ul>
+    </div>
+    <div id="side_banner">
+        <a href="http://www.google.com" target="_blank"><h1>BANNER</h1></a>
+    </div>
+</div>
+<div id="footer">
+    <h1>FOOTER</h1>
+</div>
+
+<!-- 후손 ex) div li {}, div 태그 안에 있는 모든 li를 선택, 자손 ex) div > h1, div 태그 바로 아래 있는 h1 태그만 선택 -->
+<!--동위선택자, ex) h3~div h3태그 아래에 있는 태그 중 동등한 준위에 있는 div 태그 모두 선택
+, h3+div h3태그 바로 아래 위치한 동등한 준위 div 태그 하나 선택 -->
+
+
+</body>
+</html>
 </form>
 
 </body>
