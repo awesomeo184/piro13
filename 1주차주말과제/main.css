@@ -1,3 +1,120 @@
-#login_container {
-    height: 84px; background: #3D5B99; margin 0px;
+body{
+  margin: 0px;
+  padding: 0;
+  font-family:sans-serif;
+}
+.container{
+  width: 80%;
+  overflow:auto;
+  margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+  background-color:#3D5B99;
+  color: white;
+}
+.logo {
+    float: left;
+    margin-top: 15px;
+}
+.right{
+  float: right;
+}
+.right table{
+  margin: 10px 0px;
+}
+
+.right td{
+    padding-left: 8px;
+}
+.right table td .forget_account{
+  color: white;
+  text-decoration: none;
+  opacity: 0.6;
+}
+.right table td .login_button{
+  color: white;
+  text-decoration: none;
+}
+.right table td a button{
+  background-color:#365899;
+  color: white;
+  padding: 3px 8px;
+  text-decoration: none;
+  border: 1px solid #fff;
+   margin-left: 8px;
+}
+
+section{
+  background-color: #E9EBEE;
+    background-size: cover;
+}
+section .recent_account{
+  float: left;
+}
+.recent_account h1{
+  font-size: 36px;
+}
+section .create{
+  float: right;
+  width: 40%;
+}
+.create h1{
+  font-size: 36px;
+}
+.create input{
+  height: 30px;
+  border-radius: 5px;
+  border: transparent;
+  padding: 3px;
+
+}
+.create .set{
+  width: 80%;
+}
+.create .bg{
+  height: auto;
+}
+.create button{
+  padding: 8px 40px;
+  background-color: #578843;
+  color: white;
+    border: none;
+    border-radius: 7px;
+}
+.page_create p {
+  color: #666;
+  font-size: 13px;
+  font-weight: bold;
+}
+label{
+    display: block;
+    padding: 0.7rem 0;
+    font-weight: bold;
+    color: #777;
+}
+.register_descripstion {
+    color: #777;
+    font-size: 11px;;
+}
+
+Footer {
+  background-color: white;
+}
+
+.language {
+  margin-top: 30px;
+  font-size: 12px;
+}
+hr.solid {
+  border-top: 1px solid;
+  color: #737373;
+  opacity: 0.5;
+}
+.help {
+  font-size: 12px;
 }
