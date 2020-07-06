@@ -15,6 +15,15 @@ opacity - 투명도(0~1)
 
 margin, padding: margin은 바깥 테두리, padding은 안쪽 테두리
 
+box-sizing 속성: border-box 값을 줄 경우 border가 안쪽으로 들어간다.(전체적인 크기는 동일하고 경계선의 굵기가 안쪽으로 들어감)
+content-box 값을 줄 경우 바깥쪽에 border가 형성된다.
+
+border의 속성: width, color, style radius 등이 있음
+
+background-image: url("주소값")
+background-size:
+
+
 
 
 
