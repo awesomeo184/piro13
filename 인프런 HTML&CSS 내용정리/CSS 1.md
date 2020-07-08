@@ -23,7 +23,7 @@ border의 속성: width, color, style radius 등이 있음
 background-image: url("주소값")
 background-size:
 
-
+position: static, relative, absolute, fixed
 
 
 
