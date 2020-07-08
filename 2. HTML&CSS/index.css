@@ -1,0 +1,36 @@
+body {
+    margin: 0 auto;
+}
+nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+}
+.nav_item {
+    position: relative;
+    display: inline-block;
+    padding: 15px 0;
+    height: 10vh;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 20vw;
+    margin-right: -5px;
+    text-align: center;
+}
+
+nav a {
+    text-align: center;
+}
+
+.section {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    display: block;
+}
