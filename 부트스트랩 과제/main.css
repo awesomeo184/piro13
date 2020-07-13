@@ -1,0 +1,52 @@
+body {
+    padding-top: 7rem;
+}
+#page-content-wrap {
+    margin: 0 0.5rem;
+}
+.sidebar {
+    position: fixed;
+    height: 500px;
+    top: 0px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+}
+
+.nav-sidebar li:nth-child(1) {
+    background-color: dodgerblue;
+}
+.nav-sidebar .active a {
+    color: white;
+}
+.sidenav {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.nav-item {
+    width: 100%;
+}
+.nav-sidebar {
+
+}
+
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 650px) {
+
+}
+
+@media (min-width: 576px) {
+
+}
+
