@@ -12,25 +12,34 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: #f5f5f5;
-    border-right: 1px solid #eee;
+
 }
 
+.nav-sidebar {
+
+}
+.nav-sidebar li {
+    border: 1px solid lightgray;
+
+}
 .nav-sidebar li:nth-child(1) {
     background-color: dodgerblue;
+    border: 1px solid lightgray;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+
+}
+.nav-sidebar li:nth-last-child(1) {
+    border: 1px solid lightgray;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }
 .nav-sidebar .active a {
     color: white;
 }
-.sidenav {
-    box-sizing: border-box;
-    border: 1px solid black;
-}
+
 .nav-item {
     width: 100%;
-}
-.nav-sidebar {
-
 }
 
 
